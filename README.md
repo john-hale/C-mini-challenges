@@ -7,7 +7,7 @@ I recommend creating a SSH key for the VM and associating it with your GitHub ac
 
 And now, on to the Mini-Challenges:
 
-1. Print “Hello, <NAME>” where NAME is input from the keyboard.
+1. Print “Hello, NAME” where NAME is input from the keyboard.
     
 2. Implement Archimedes algorithm to estimate pi for inscribed/circumscribed polygons with n sides, up to 100, doubling n at each step, and time it.
     
