@@ -11,18 +11,23 @@ I recommend creating a SSH key for the VM and associating it with your GitHub ac
 
 And now, on to the Mini-Challenges:
 
-    Print “Hello, <NAME>” where NAME is input from the keyboard.
-    Implement Archimedes algorithm to estimate pi for inscribed/circumscribed polygons with n sides, up to 100, doubling n at each step, and time it.
-    Implement matrix – vector multiplication. Read in the following text file (mv.txt) which contains the matrix and vector to be multiplied. Print your answer to the screen and time the computation. The format of mv.txt is: line 1 contains numrows, numcols. The next numrows contains the rows of the matrix, each with numcols integer values. The next line contains the length of the vector. The next line contains the vector of that length.
-    Compare the speed of *,/,sqrt, sin operations/functions.
-    Use the attached code snippets as a basis for comparing the performance of row-major vs. column major computations. One snippet uses a static allocation for the array, the other allocates the array dynamically. Do a little experimentation with each approach. Vary the size of the square array from 128 X 128 on up, doubling it in size each time. Chart your results. Is there a difference in performance or behavior between static and dynamic? Between row-major and column-major? In terms of the latter, valgrind has been installed on your Linux VM, and its cachegrind tool facility may help provide some insights. Do some OSINT research to learn about valgrind....
-    Write a program that accepts a string input from stdio and sends it to a function that transforms it according a transposition function passed in to it as an argument.  The function will print out the string, transform it, and then print out the result. The transposition function, you can assume, simply shuffles the existing characters in the string.  Build a transposition function that reverses the string and apply it.  Where appropriate and possible, use dynamic allocation and pointer arithmetic to get the job done.
+Print “Hello, <NAME>” where NAME is input from the keyboard.
+    
+Implement Archimedes algorithm to estimate pi for inscribed/circumscribed polygons with n sides, up to 100, doubling n at each step, and time it.
+    
+Implement matrix – vector multiplication. Read in the following text file (mv.txt) which contains the matrix and vector to be multiplied. Print your answer to the screen and time the computation. The format of mv.txt is: line 1 contains numrows, numcols. The next numrows contains the rows of the matrix, each with numcols integer values. The next line contains the length of the vector. The next line contains the vector of that length.
+    
+Compare the speed of *,/,sqrt, sin operations/functions.
+    
+Use the attached code snippets as a basis for comparing the performance of row-major vs. column major computations. One snippet uses a static allocation for the array, the other allocates the array dynamically. Do a little experimentation with each approach. Vary the size of the square array from 128 X 128 on up, doubling it in size each time. Chart your results. Is there a difference in performance or behavior between static and dynamic? Between row-major and column-major? In terms of the latter, valgrind has been installed on your Linux VM, and its cachegrind tool facility may help provide some insights. Do some OSINT research to learn about valgrind....
+    
+Write a program that accepts a string input from stdio and sends it to a function that transforms it according a transposition function passed in to it as an argument.  The function will print out the string, transform it, and then print out the result. The transposition function, you can assume, simply shuffles the existing characters in the string.  Build a transposition function that reverses the string and apply it.  Where appropriate and possible, use dynamic allocation and pointer arithmetic to get the job done.
 
 
 Submit:
 
-    A link to your code for each mini-challenge from our Github classroom.
-    Also, submit a PDF with your output (screenshots will suffice), and with responses to the following:
+A link to your code for each mini-challenge from our Github classroom.
+Also, submit a PDF with your output (screenshots will suffice), and with responses to the following:
 
 
 1. For the Hello Name challenge:
@@ -69,22 +74,3 @@ b. What did you observe about differences in program behavior in row-major vs. c
 a. What were some alternative implementation strategies could you entertain here?
 
 b. What programming hazards/pitfalls should be considered in your general approach?
-
-
-Student Led discussion of solutions:
-
-    Daniel Fajardo
-    Maria Fite
-    Isaac Kim
-    Declan O'Leary
-    Joaquin Prego Fernandez
-    Asher Rosen
-
-Assignment Settings
-
-    Due date
-    Sun Feb 1, 2026 11:59 PM (CST)
-    Grade category Assignment
-    Grading Points 100 maximum points Post grades manually when assessment is graded. Change grade posting setting.
-    Attempts allowed 1 attempt
-    Originality Report Enable SafeAssign
